@@ -132,6 +132,23 @@ section {
     }
 }
 
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    nav {
+        display: none;
+    }
+}
+
+
+
+>>>>>>> 6e6550fafb9efb0936d0f2597890c1f7bc421c21
 /* Outras modificações específicas para telas menores podem ser adicionadas aqui */
 #profissionais {
     text-align: center;
