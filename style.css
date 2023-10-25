@@ -121,25 +121,16 @@ section {
         flex-direction: column;
         margin-bottom: 25px;
     }
+    nav {
+        margin-top: 40px; /* Espaçamento entre o título e o nav */
+        flex-direction: inherit;
+    
+    }
 
     nav a{
         font-size: 10px;
     }
 }
-
-@media screen and (min-width: 768px) {
-    nav {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    nav {
-        display: none;
-    }
-}
-
-
 
 /* Outras modificações específicas para telas menores podem ser adicionadas aqui */
 #profissionais {
