@@ -275,7 +275,7 @@ section {
 
 .meio {
     text-align: center;
-    margin-top: 70px; /* Reduza a margem superior para dispositivos menores */
+    margin-top: 200px; /* Reduza a margem superior para dispositivos menores */
     margin-bottom: 50px; /* Reduza a margem inferior para dispositivos menores */
     position: relative;
     z-index: 1;
@@ -283,7 +283,6 @@ section {
 
 
 .meio h1 {
-    margin-top:200px;
     font-size: 50px; /* Reduza o tamanho da fonte para dispositivos menores */
     color: #fff;
 }
