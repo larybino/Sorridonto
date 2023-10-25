@@ -121,12 +121,6 @@ section {
         flex-direction: column;
         margin-bottom: 25px;
     }
-    nav {
-        margin-top: 40px; /* Espaçamento entre o título e o nav */
-        left: 1px;
-        flex-direction: inherit;
-    
-    }
 
     nav a{
         font-size: 10px;
@@ -138,6 +132,8 @@ section {
         display: block;
     }
 }
+
+
 
 /* Outras modificações específicas para telas menores podem ser adicionadas aqui */
 #profissionais {
