@@ -102,7 +102,7 @@ section {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 720px) {
     header {
         flex-direction: column;
         text-align:left;
@@ -234,7 +234,7 @@ section {
 
 
 /* Ajuste para dispositivos menores, como tablets e telefones */
-@media (max-width: 1200px) {
+    @media (max-width: 1200px) {
         max-width: 90%; /* Reduza a largura máxima para acomodar telas menores */
         margin: 2% 5%; /* Ajuste o espaçamento lateral em dispositivos menores */
     }
@@ -295,7 +295,7 @@ section {
 
 
 @media (min-width: 1200px) {
-    /* Aplique estilos apenas para dispositivos com largura mínima de 1200px (PC) */
+    /* Aplique estilos apenas para dispositivos com largura mínima de 768px (PC) */
     .meio {
       text-align: center;
       margin-top:250px; /* Ajuste a margem superior para dispositivos maiores, se necessário */
@@ -531,7 +531,7 @@ address {
     margin-top: 50px;
 }
 
-/* Estilos adicionais para telas maiores que 1200px de largura */
+/* Estilos adicionais para telas maiores que 768px de largura */
 @media (min-width: 1200px) {
     .map-container {
         margin: 0.2%;
