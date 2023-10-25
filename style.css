@@ -131,9 +131,6 @@ section {
         font-size: 10px;
     }
 }
-
-<<<<<<< HEAD
-=======
 @media screen and (min-width: 768px) {
     nav {
         display: block;
@@ -146,9 +143,6 @@ section {
     }
 }
 
-
-
->>>>>>> 6e6550fafb9efb0936d0f2597890c1f7bc421c21
 /* Outras modificações específicas para telas menores podem ser adicionadas aqui */
 #profissionais {
     text-align: center;
