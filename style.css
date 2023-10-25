@@ -82,13 +82,13 @@ section {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     section {
         padding: 10px /* Reduza ainda mais o espaço interno em telas menores, se necessário */
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
     .titulo h1 {
         font-size: 30px;
     }
@@ -157,7 +157,7 @@ section {
 
 
 /* Estilos para telas menores, como smartphones */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     #profissionais {
         margin-top: 20px; /* Ajuste a margem superior */
         margin-bottom: 20px; /* Ajuste a margem inferior */
@@ -207,7 +207,7 @@ section {
 
 
 /* Ajuste para dispositivos menores, como tablets e telefones */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .box {
         width: 100%; /* A largura de 100% permite que as caixas ocupem toda a largura da tela */
         max-width: none; /* Removendo a largura máxima */
@@ -234,7 +234,7 @@ section {
 
 
 /* Ajuste para dispositivos menores, como tablets e telefones */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
         max-width: 90%; /* Reduza a largura máxima para acomodar telas menores */
         margin: 2% 5%; /* Ajuste o espaçamento lateral em dispositivos menores */
     }
@@ -264,7 +264,7 @@ section {
 
 
     /* Ajuste para dispositivos menores, como tablets e telefones */
-    @media (max-width: 768px) {
+    @media (max-width: 720px) {
         max-width: 90%; /* Reduza a largura máxima para acomodar telas menores */
         margin: 2% auto; /* Ajuste o espaçamento e centralize horizontalmente */
     }
@@ -294,7 +294,7 @@ section {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
     /* Aplique estilos apenas para dispositivos com largura mínima de 768px (PC) */
     .meio {
       text-align: center;
@@ -339,7 +339,7 @@ section {
 
 
 /* Ajuste para dispositivos menores, como tablets e telefones */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .boxi {
         width: 100%; /* A largura de 100% permite que as caixas ocupem toda a largura da tela */
         max-width: none; /* Removendo a largura máxima */
@@ -359,7 +359,7 @@ section {
 }
 
 /* Ajuste para dispositivos menores, como tablets e telefones */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .caixa {
         width:0; /* A largura de 100% permite que as caixas ocupem toda a largura da tela */
         max-width: 0; /* Removendo a largura máxima */
@@ -486,7 +486,7 @@ img {
 
 
 /* Ajuste o efeito de paralaxe para dispositivos menores */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .paralaxe {
         height: 100vh; /* Reduza a altura para evitar rolagem em dispositivos menores */
     }
@@ -532,7 +532,7 @@ address {
 }
 
 /* Estilos adicionais para telas maiores que 768px de largura */
-@media (min-width: 768px) {
+@media (min-width: 720px) {
     .map-container {
         margin: 0.2%;
     }
