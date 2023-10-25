@@ -82,13 +82,13 @@ section {
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 1200px) {
     section {
         padding: 10px /* Reduza ainda mais o espaço interno em telas menores, se necessário */
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1200px) {
     .titulo h1 {
         font-size: 30px;
     }
@@ -102,7 +102,7 @@ section {
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1200px) {
     header {
         flex-direction: column;
         text-align:left;
@@ -127,13 +127,13 @@ section {
         font-size: 10px;
     }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     nav {
         display: block;
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1200px) {
     nav {
         display: none;
     }
@@ -157,7 +157,7 @@ section {
 
 
 /* Estilos para telas menores, como smartphones */
-@media (max-width: 720px) {
+@media (max-width: 1200px) {
     #profissionais {
         margin-top: 20px; /* Ajuste a margem superior */
         margin-bottom: 20px; /* Ajuste a margem inferior */
@@ -207,7 +207,7 @@ section {
 
 
 /* Ajuste para dispositivos menores, como tablets e telefones */
-@media (max-width: 720px) {
+@media (max-width: 1200px) {
     .box {
         width: 100%; /* A largura de 100% permite que as caixas ocupem toda a largura da tela */
         max-width: none; /* Removendo a largura máxima */
@@ -234,7 +234,7 @@ section {
 
 
 /* Ajuste para dispositivos menores, como tablets e telefones */
-@media (max-width: 720px) {
+@media (max-width: 1200px) {
         max-width: 90%; /* Reduza a largura máxima para acomodar telas menores */
         margin: 2% 5%; /* Ajuste o espaçamento lateral em dispositivos menores */
     }
@@ -264,7 +264,7 @@ section {
 
 
     /* Ajuste para dispositivos menores, como tablets e telefones */
-    @media (max-width: 720px) {
+    @media (max-width: 1200px) {
         max-width: 90%; /* Reduza a largura máxima para acomodar telas menores */
         margin: 2% auto; /* Ajuste o espaçamento e centralize horizontalmente */
     }
@@ -294,8 +294,8 @@ section {
 }
 
 
-@media (min-width: 720px) {
-    /* Aplique estilos apenas para dispositivos com largura mínima de 768px (PC) */
+@media (min-width: 1200px) {
+    /* Aplique estilos apenas para dispositivos com largura mínima de 1200px (PC) */
     .meio {
       text-align: center;
       margin-top:250px; /* Ajuste a margem superior para dispositivos maiores, se necessário */
@@ -339,7 +339,7 @@ section {
 
 
 /* Ajuste para dispositivos menores, como tablets e telefones */
-@media (max-width: 720px) {
+@media (max-width: 1200px) {
     .boxi {
         width: 100%; /* A largura de 100% permite que as caixas ocupem toda a largura da tela */
         max-width: none; /* Removendo a largura máxima */
@@ -359,7 +359,7 @@ section {
 }
 
 /* Ajuste para dispositivos menores, como tablets e telefones */
-@media (max-width: 720px) {
+@media (max-width: 1200px) {
     .caixa {
         width:0; /* A largura de 100% permite que as caixas ocupem toda a largura da tela */
         max-width: 0; /* Removendo a largura máxima */
@@ -486,7 +486,7 @@ img {
 
 
 /* Ajuste o efeito de paralaxe para dispositivos menores */
-@media (max-width: 720px) {
+@media (max-width: 1200px) {
     .paralaxe {
         height: 100vh; /* Reduza a altura para evitar rolagem em dispositivos menores */
     }
@@ -531,8 +531,8 @@ address {
     margin-top: 50px;
 }
 
-/* Estilos adicionais para telas maiores que 768px de largura */
-@media (min-width: 720px) {
+/* Estilos adicionais para telas maiores que 1200px de largura */
+@media (min-width: 1200px) {
     .map-container {
         margin: 0.2%;
     }
