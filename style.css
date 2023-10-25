@@ -283,6 +283,7 @@ section {
 
 
 .meio h1 {
+    margin-top:200px;
     font-size: 50px; /* Reduza o tamanho da fonte para dispositivos menores */
     color: #fff;
 }
