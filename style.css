@@ -490,7 +490,13 @@ img {
     .paralaxe {
         height: 100vh; /* Reduza a altura para evitar rolagem em dispositivos menores */
     }
+    .paralaxe h1{
+        font-size: 36px;
+    }
 
+    .paralaxe h2{
+        font-size: 24px;
+    }
 
     .imagem {
         animation: none; /* Remova a animação em dispositivos menores */
