@@ -486,7 +486,7 @@ img {
 
 
 /* Ajuste o efeito de paralaxe para dispositivos menores */
-@media (max-width: 720px) {
+@media (max-width: 1100px) {
     .paralaxe {
         height: 100vh; /* Reduza a altura para evitar rolagem em dispositivos menores */
     }
